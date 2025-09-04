@@ -1,0 +1,18 @@
+# Nmap 7.80 scan initiated Fri Sep  5 00:40:31 2025 as: nmap -A -oN nmap_agressive_scan.txt 127.0.0.1
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.000043s latency).
+Not shown: 999 closed ports
+PORT    STATE SERVICE VERSION
+631/tcp open  ipp     CUPS 2.3
+| http-robots.txt: 1 disallowed entry 
+|_/
+|_http-server-header: CUPS/2.3 IPP/2.1
+|_http-title: Home - CUPS 2.3.1
+Device type: general purpose
+Running: Linux 2.6.X
+OS CPE: cpe:/o:linux:linux_kernel:2.6.32
+OS details: Linux 2.6.32
+Network Distance: 0 hops
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Sep  5 00:40:40 2025 -- 1 IP address (1 host up) scanned in 8.48 seconds
